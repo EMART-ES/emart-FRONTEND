@@ -1,24 +1,21 @@
 
 import './App.css'
-import { Card } from './components/cards/Card'
-import { productData } from './inteface/ProductData';
+import Card from './components/cards/Card'
+import Navbar from './components/navbar/Navbar'
 
 function App() {
-  const data: productData[] =[];
+
   return (
     <>
-     <div className="container">
-      <h1>Produtos</h1>
-      <div className="card-grid">
-    {data.map(productData => <Card price={productData.price} title={productData.title} image={productData.image} />) }  
-    
-      </div>
-      <div className="card-name">
+      <header><Navbar /></header>
 
-      </div>
-
-     </div>
-    </>
+      <section className='card-grid'>
+        <Card id={1} image='https://i.pinimg.com/736x/63/56/65/635665870427679b47dda476e1d536c3.jpg' price={200} title='Camisa lacostada' />
+        <Card id={2} image='https://i.pinimg.com/736x/63/56/65/635665870427679b47dda476e1d536c3.jpg' price={200} title='Camisa lacostada' />
+        <Card id={2} image='https://i.pinimg.com/736x/63/56/65/635665870427679b47dda476e1d536c3.jpg' price={200} title='Camisa lacostada' />
+        <Card id={2} image='https://i.pinimg.com/736x/63/56/65/635665870427679b47dda476e1d536c3.jpg' price={200} title='Camisa lacostada' />
+        
+      </section></>
   )
 }
 

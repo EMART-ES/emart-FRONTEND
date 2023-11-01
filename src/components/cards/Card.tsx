@@ -1,13 +1,19 @@
-import "./Card.css" 
-interface cardProps {
+
+import './card.css'
+interface CardProps {
+    id: number;
+    title: string;
     price: number;
     image: string;
-    title: string;
 }
-export function Card({price,image,title}: cardProps) {
-    return <div className="card">
-        <img/>
-        <h2></h2>
-        <p><b>valor:</b></p>        
-    </div>
-}
+function Card(props: CardProps) {
+    return <>
+            <div className='card-grid'></div>
+            <div className='card'>
+                <img src={props.image} alt="Imagem de roupa" />
+                <h2>{props.title}</h2>
+                <h3>{props.price}</h3>
+            </div>
+        </>
+};
+export default Card;
