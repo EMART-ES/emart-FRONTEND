@@ -7,6 +7,7 @@ function Navbar() {
                 <li><a href="#">Perfil</a></li>
                 <li><a href="#">Notificações</a></li>
                 <li><a href="#">Configurações</a></li>
+                <li><a href="#">Suporte</a></li>
             </ul></nav>
         </>)
 };

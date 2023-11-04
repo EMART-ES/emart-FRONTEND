@@ -1,7 +1,6 @@
 nav {
     display: flex;
-    margin: 0;
-    justify-content: center;
+    width: 100%;
     align-items: center;
 }
 
@@ -9,12 +8,22 @@ nav ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+
 }
 
-
+nav ul li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 nav ul li a {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
     text-decoration: none;
     color: white;
 }
