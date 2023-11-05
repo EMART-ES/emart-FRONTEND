@@ -5,6 +5,8 @@ header {
     width: 100%;
     height: auto;
     background-color: #282c34;
+    border: 1px solid #0050ef;
+
 }
 
 .card-container {
