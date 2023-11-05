@@ -2,35 +2,8 @@
   --background: #0d1117;
   --background-card: #a6a6a6;
   --letters: #2a6468;
-  width: 100vw;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  color-scheme: light dark;
   color: var(--letters);
   background-color: var(--background);
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: auto;
-
-}
-
-@media (max-width: 250px) {
-  .nav-ul {
-    flex-direction: column;
-  }
-  a{
-    font-size: 2%;
-  }
-  h1{
-    font-size: 2%;
-  }
 }
 
 @media (prefers-color-scheme: light) {

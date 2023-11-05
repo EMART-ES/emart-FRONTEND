@@ -2,13 +2,9 @@ nav {
     display: flex;
     width: 100%;
     align-items: center;
-    border: 1px solid rgb(239, 0, 175);
-
 }
 
 nav ul {
-    border: 1px solid #0050ef;
-
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -16,8 +12,7 @@ nav ul {
     align-items: center;
     margin: 0;
     padding: 0;
-    width: 100vw;
-
+    width: 100%;
 }
 
 nav ul li {

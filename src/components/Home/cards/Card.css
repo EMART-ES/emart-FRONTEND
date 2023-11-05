@@ -19,12 +19,13 @@
     
 }
 .card h2 {
+    text-align: center;
     max-width: 100%;
     overflow-wrap: break-word;
-    }
-.card p {
-    max-width: 100%;
-    overflow-wrap: break-word;
+; 
+   }
+.card h3 {
+    text-align: center;
     }
 
 

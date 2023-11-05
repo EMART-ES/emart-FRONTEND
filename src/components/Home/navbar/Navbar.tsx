@@ -1,5 +1,6 @@
 import './navbar.css'
-function Navbar() {
+
+export default function Navbar() {
     return (
         <>
             <nav><ul className='nav-ul'>
@@ -11,4 +12,3 @@ function Navbar() {
             </ul></nav>
         </>)
 };
-export default Navbar
