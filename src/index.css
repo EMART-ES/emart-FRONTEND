@@ -1,6 +1,7 @@
 :root {
   --background: #0d1117;
   --background-card: #a6a6a6;
+  --background-nav:#a5a5a7;
   --letters: #2a6468;
   color: var(--letters);
   background-color: var(--background);
