@@ -8,7 +8,6 @@ interface CardProps {
 }
 function Card(props: CardProps) {
     return <>
-        <div className='card-grid'></div>
         <div className='card'>
             <img src={props.image} alt="Imagem de roupa" />
             <h2>{props.title}</h2>
