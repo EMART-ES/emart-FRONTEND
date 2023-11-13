@@ -1,11 +1,9 @@
 import './Home.css';
 import Card from "../../components/cards/Card";
-import Navbar from "../../components/navbar/Navbar";
 
 export default function Home() {
     return (
         <>
-            <header><Navbar /></header>
             <section className="text-center">
                 <h1>Venha fazer parte da nossa comunidade!</h1>
             </section>
