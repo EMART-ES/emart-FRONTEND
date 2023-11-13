@@ -1,24 +1,3 @@
-:root {
-  --background: #0d1117;
-  --background-card: #a6a6a6;
-  --background-nav:#a5a5a7;
-  --letters: #2a6468;
-  color: var(--letters);
-  background-color: var(--background);
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-
-  a:hover {
-    color: #747bff;
-  }
-
-  button {
-    background-color: #f9f9f9;
-  }
-
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
